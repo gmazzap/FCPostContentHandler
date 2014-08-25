@@ -42,7 +42,7 @@ When in standalone mode, PCHFC adds an additional setting that allow to enable /
 
 PCHFC is a Composer package and can be installed in plugin directory via:
 
-    composer create-project giuseppe-mazzapica/fcpch --no-dev
+    composer create-project giuseppe-mazzapica/fc-post-content-handler --no-dev
 
 #License#
 
