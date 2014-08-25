@@ -5,7 +5,7 @@ Post Content Handler for Fragment Cache is an extension of the awesome WordPress
 
 Fragment Cache allows partial and async caching of heavy front-end elements. It currently supports caching navigation menus, widgets, and galleries.
 
-This Post Content Handler for Fragment Cache (PCHFC) add an additional "cache handler" to allow cache of post content in singular view.
+Post Content Handler for Fragment Cache (PCHFC) adds an additional "cache handler" to allow caching of post content in singular view.
 
 PCHFC was realized for a client site, where a premium theme forced to build page content using an insane number of nested shortcodes, ending up in a quite slow page loading.
 
