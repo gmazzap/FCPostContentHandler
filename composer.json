@@ -10,8 +10,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/Giuseppe-Mazzapica/fcpch/issues",
-        "source": "https://github.com/Giuseppe-Mazzapica/fcpch"
+        "issues": "https://github.com/Giuseppe-Mazzapica/FCPostContentHander/issues",
+        "source": "https://github.com/Giuseppe-Mazzapica/FCPostContentHander"
     },
     "license": "GPL-2.0+",
     "require": {

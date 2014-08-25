@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Post Content Handler for Fragment Cache
-  Plugin URI: https://github.com/Giuseppe-Mazzapica/fcpch
+  Plugin URI: https://github.com/Giuseppe-Mazzapica/FCPostContentHander
   Description: Cache content for selected posts in singular view. Based upon <a href="https://github.com/Rarst/fragment-cache">Fragment Cache</a> by <a href="http://www.rarst.net/">Andrey "Rarst" Savchenko</a>, can work as an extension of that plugin or in standalone mode.
   Author: Giuseppe Mazzapica
   Version:
