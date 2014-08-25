@@ -5,15 +5,15 @@ Post Content Handler for Fragment Cache is an extension of the awesome WordPress
 
 Fragment Cache allows partial and async caching of heavy front-end elements. It currently supports caching navigation menus, widgets, and galleries.
 
-Post Content Handler for Fragment Cache (PCHFC) adds an additional "cache handler" to allow caching of post content in singular view.
+Post Content Handler for Fragment Cache (PCHFC) adds an additional "cache handler" to allow caching of post content in singular views.
 
 PCHFC was realized for a client site, where a premium theme forced to build page content using an insane number of nested shortcodes, ending up in a quite slow page loading.
 
 Full-page caching was not an option, because in that site there are (outside of post content) a lot of user-specific stuff.
 
-Using the powerful of Fragment Cache I coded this handler that allowed me to successfully cache post content, without affecting the rest of the page.
+Thanks to Fragment Cache I was able to coded this handler that allowed me to successfully cache post content, without affecting the rest of the page.
 
-Of course, posts with simple post content should not be cached, otherwise page loading time increase instead of decreasing: for this reason the plugin add a metabox in  the post edit screen that allow to enable or disable the post content caching.
+Of course, posts having simple, text only content should **not** be cached, otherwise page loading time increase instead of decrease: for this reason the plugin add a metabox in the post edit screen that allow to enable or disable the post content caching.
 
 ![Post edit screen metabox](screenshot-01.png)
 
@@ -25,7 +25,7 @@ As you can see in the screenshot, another option is available: the possibility t
 
 ###Standalone Mode###
 
-As said, PCHFC is just an extension of Fragment Cache, however, even if that plugin is not installed and activated in WordPress,  thanks to Fragment Cache composer support, a copy of the plugin is "embedded" in Post Content Handler folder and so PCHFC can work in "standalone" mode.
+As said, PCHFC is just an extension of Fragment Cache, however, even if that plugin is not installed and activated in WordPress,  thanks to Fragment Cache [Composer](https://getcomposer.org/) support, a copy of the plugin is "embedded" in Post Content Handler folder and so PCHFC can work in "standalone" mode: i.e. you can install PCHFC without having to install Fragment Cache.
 
 When Fragment Cache is installed, it enables the 3 core handlers:
  - Menu
@@ -40,7 +40,7 @@ When in standalone mode, PCHFC adds an additional setting that allow to enable /
 
 #Installation#
 
-PCHFC is a Composer package and can be installed in plugin directory via:
+PCHFC is a [Composer](https://getcomposer.org/) package and can be installed in plugin directory via:
 
     composer create-project giuseppe-mazzapica/fc-post-content-handler --no-dev
 
