@@ -38,6 +38,13 @@ When in standalone mode, PCHFC adds an additional setting that allow to enable /
 
 ![Settings for Post Content Core Handlers](screenshot-03.png)
 
+#Requirements#
+
+ - [Composer](https://getcomposer.org/)
+ - **PHP 5.4+**
+ - WordPress 3.9+
+
+
 #Installation#
 
 PCHFC is a [Composer](https://getcomposer.org/) package and can be installed in plugin directory via:
