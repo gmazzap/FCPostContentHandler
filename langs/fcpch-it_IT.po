@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Content Handler for Fragment Cache v\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-25 17:44:52+0000\n"
+"Last-Translator: admin <admin@local.dev>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: fcpch-admin.php:9
+#: src/Settings.php:35
+#@ fcpch
+msgid "Fragment Cache"
+msgstr "Fragment Cache"
+
+#: fcpch-admin.php:25
+#: src/Settings.php:15
+#@ fcpch
+msgid "Fragment Cache Post Content"
+msgstr "Fragment Cache per il Contenuto dei Post"
+
+#: src/Metabox.php:21
+#@ fcpch
+msgid "Can't cache password protected posts."
+msgstr "Cache disabilitata per i post protetti da password."
+
+#: src/Metabox.php:28
+#@ fcpch
+msgid "Fragment cache content?"
+msgstr "Attivare Fragment cache per post?"
+
+#: src/Metabox.php:31
+#@ fcpch
+msgid "Please check only if post content contain resource intensive and/or time consuming shortcodes."
+msgstr "Per favore, attivare solo se nel contenuto del post vi sono shortcode che richiedono un uso intensivo di risorse e/o di tempo."
+
+#: src/Metabox.php:33
+#@ fcpch
+msgid "Do NOT check if:"
+msgstr "NON attivare se:"
+
+#: src/Metabox.php:35
+#@ fcpch
+msgid "there are no shortcodes in content"
+msgstr "non ci sono shorcode nel contenuto"
+
+#: src/Metabox.php:36
+#@ fcpch
+msgid "shortcodes output user-specific content for logged users"
+msgstr "vi sono shortcode che mostrano contenuto specifico per gli utenti loggati"
+
+#: src/Metabox.php:37
+#@ fcpch
+msgid "shortcodes output random content that you need to keep randomly changing"
+msgstr "vi sono shortcode che mostrano contenuto casuale che si necessita rimanga tale"
+
+#: src/Settings.php:16
+#@ fcpch
+msgid "Enable for post types"
+msgstr "Abilita per i tipi di post"
+
+#: src/Settings.php:24
+#@ fcpch
+msgid "Fragment Cache Plugin"
+msgstr "Plugin Fragment Cache"
+
+#: src/Settings.php:25
+#@ fcpch
+msgid "Fragment Cache Handlers"
+msgstr "Gestori Fragment Cache"
+
+#: src/Settings.php:44
+#@ fcpch
+msgid "Settings for core handlers of"
+msgstr "Impostazioni per i gestori di base di"
+
+#: src/Settings.php:72
+#@ fcpch
+msgid "Settings for Post Content Handler of"
+msgstr "Impostazioni per il gestore del contenuto post di"
+
+#: src/Settings.php:76
+#@ fcpch
+msgid "Choose for which post types Post Content Handler of Fragment Cache should be available:"
+msgstr "Scegli per quali tipi di post la cache per il contenuto deve essere disponibile:"
+
+#: src/Settings.php:105
+#, php-format
+#@ fcpch
+msgid "Check valid capabilities %shere%s"
+msgstr "Controlla %squi%s quali sono i livelli disponibili"
+
+#: src/Settings.php:17
+#@ fcpch
+msgid "Required capability"
+msgstr "Autorizzazione richiesta"
+
+#: src/Settings.php:103
+#@ fcpch
+msgid "Choose the capability users must have to see metabox in post edit screen."
+msgstr "Scegli il livello di autorizzazione che un utente deve avere per avere accesso alla metabox."
+
+#: src/Settings.php:48
+#@ fcpch
+msgid "Choose Fragment Cache core handlers to enable:"
+msgstr "Scegli quale gestori cache di base abilitare:"
+
