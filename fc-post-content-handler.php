@@ -36,6 +36,10 @@ add_action( 'plugins_loaded', function() {
         return;
     }
     load_plugin_textdomain( 'fcpch', FALSE, dirname( plugin_basename( __FILE__ ) ) . '/langs/' );
+    add_filter( 'update_blocker_blocked', function( $blocked ) {
+        $blocked['plugins'][] = plugin_basename( dirname( __DIR__ ) . '/fc-post-content-handler.php' );
+        return $blocked;
+    } );
     custom_init_fragment_cache();
     registerServices();
 } );
