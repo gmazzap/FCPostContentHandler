@@ -74,7 +74,10 @@ class Handler extends \Rarst\Fragment_Cache\Fragment_Cache {
                 return;
             }
         }
-        $GLOBALS['wp_filter']['the_content'] = $this->original_filters;
+        $current = isset( $GLOBALS['wp_filter']['the_content'] ) ?
+            $GLOBALS['wp_filter']['the_content'] :
+            [ ];
+        $GLOBALS['wp_filter']['the_content'] = array_merge( $this->original_filters, $current );
         $this->original_filters = NULL;
     }
 
