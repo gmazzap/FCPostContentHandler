@@ -11,17 +11,17 @@ PCHFC was realized for a client site, where a premium theme forced to build page
 
 Full-page caching was not an option, because in that site there are (outside of post content) a lot of user-specific stuff.
 
-Thanks to Fragment Cache I was able to coded this handler that allowed me to successfully cache post content, without affecting the rest of the page.
+Thanks to Fragment Cache I was able to code this handler that allowed me to successfully cache post content, without affecting the rest of the page.
 
-Of course, posts having simple, text only content should **not** be cached, otherwise page loading time increase instead of decrease: for this reason the plugin add a metabox in the post edit screen that allow to enable or disable the post content caching.
+Of course, posts having simple, text only content should **not** be cached, otherwise page loading time increase instead of decrease: for this reason the plugin add a metabox in the post edit screen where is possible to enable or disable the post content caching.
 
 ![Post edit screen metabox](screenshot-01.png)
 
-A client requirement was that this metabox should be only visible to users with specific capability. So I added a setting page (accessible from Settings -> Fragment Cache) where is possible to change the capability required to view the metabox and so enable or disable post content fragment caching.
+A client requirement was that metabox should be only visible to users with specific capability. So I added a setting page (accessible from Settings -> Fragment Cache) where is possible to change the capability required to view the metabox and enable or disable post content fragment caching.
 
 ![Settings for Post Content Handler for Fragment Cache](screenshot-02.png)
 
-As you can see in the screenshot, another option is available: the possibility to choose for which post types the post content caching should be available. When custom post types are registered, they are also visible in that setting, but unselected by default.
+As you can see in the screenshot, another option is available: the possibility to choose for which post types the post content caching should be available. When custom post types are registered, they are also visible and selectable in that setting, but unselected by default.
 
 ###Standalone Mode###
 
@@ -53,7 +53,7 @@ PCHFC is a [Composer](https://getcomposer.org/) package and can be installed in 
     
 #Gotchas#
 
-PCHFC is largely experimental. It has been tested in a very limited amount of conditions and sites.
+PCHFC is in development and largely experimental. It has been tested in a very limited amount of conditions and sites.
 I suggest to test it in a staging / development environment before using it in production.
 
 #License#
