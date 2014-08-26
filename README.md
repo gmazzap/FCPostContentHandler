@@ -50,6 +50,11 @@ When in standalone mode, PCHFC adds an additional setting that allow to enable /
 PCHFC is a [Composer](https://getcomposer.org/) package and can be installed in plugin directory via:
 
     composer create-project giuseppe-mazzapica/fc-post-content-handler --no-dev
+    
+#Gotchas#
+
+PCHFC is largely experimental. It has been tested in a very limited amount of conditions and sites.
+I suggest to test it in a staging / development environment before using it in production.
 
 #License#
 
