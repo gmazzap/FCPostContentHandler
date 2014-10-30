@@ -41,7 +41,7 @@ When in standalone mode, PCHFC adds an additional setting that allow to enable /
 #Requirements#
 
  - [Composer](https://getcomposer.org/)
- - **PHP 5.4+**
+ - PHP 5.4+
  - WordPress 3.9+
 
 
